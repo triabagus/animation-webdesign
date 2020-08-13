@@ -147,3 +147,15 @@ h1{
     animation-delay:7s; 
     width: 35px
 }
+
+@media only screen and (max-width: 768px) { 
+    .side-bar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    h1{
+        font-size: 75px;
+    }
+}
